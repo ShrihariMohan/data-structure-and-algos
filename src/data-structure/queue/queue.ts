@@ -46,7 +46,7 @@ const dequeue = () => {
 }
 
 const view = () => {
-  console.log("🚀 ~ file: queue.ts ~ line 33 ~ dequeue ~ queue", queue)
+  console.log("🚀 ~ queue", queue)
   return queue
 }
 

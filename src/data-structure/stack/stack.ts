@@ -50,7 +50,7 @@ const isFull = () => {
 }
 
 const view = () => {
-  console.log("🚀 ~ file: stack.ts ~ line 8 ~ stack", stack)
+  console.log("🚀 ~ stack", stack)
   return stack
 }
 

@@ -1,4 +1,4 @@
-import { enqueue, dequeue, reset, view, errors } from '../src/queue'
+import { enqueue, dequeue, reset, view, errors } from './queue'
 
 describe('push 3 values to queue', () => {
 

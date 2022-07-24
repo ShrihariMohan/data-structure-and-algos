@@ -1,5 +1,5 @@
 
-import { push, view, errors, pop, reset } from '../src/stack'
+import { push, view, errors, pop, reset } from './stack'
 
 describe('push 5 elements to stack', () => {
 
