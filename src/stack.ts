@@ -20,9 +20,9 @@ const reset = () => {
 }
 
 
-const push = (...value: number[]) => {
+const push = (value: number) => {
   if (stackTop < stackLimit) {
-    stack.push(...value)
+    stack.push(value)
     stackTop = stack.length
   }
   else {
