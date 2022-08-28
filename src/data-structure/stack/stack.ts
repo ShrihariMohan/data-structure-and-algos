@@ -50,7 +50,6 @@ const isFull = () => {
 }
 
 const view = () => {
-  console.log("🚀 ~ stack", stack)
   return stack
 }
 

@@ -46,7 +46,6 @@ const dequeue = () => {
 }
 
 const view = () => {
-  console.log("🚀 ~ queue", queue)
   return queue
 }
 
