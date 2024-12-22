@@ -13,13 +13,6 @@ const errors = {
 let { stack, stackTop } = getStack()
 const stackLimit = 5
 
-const reset = () => {
-  const newStack = getStack()
-  stack = newStack.stack
-  stackTop = newStack.stackTop
-}
-
-
 const push = (value: number) => {
   if (stackTop < stackLimit) {
     stack.push(value)
@@ -40,6 +33,13 @@ const pop = () => {
     throw new Error(errors.NO_ELEMENTS)
   }
 }
+
+const reset = () => {
+  const newStack = getStack()
+  stack = newStack.stack
+  stackTop = newStack.stackTop
+}
+
 
 const isEmpty = () => {
   return Boolean(stackTop)
